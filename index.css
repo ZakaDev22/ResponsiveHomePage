@@ -5,6 +5,7 @@
     margin: 0;
 
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 body {
@@ -36,15 +37,16 @@ body::after {
     width: 80%;
     
     border-radius: 20px;
-    display: flex;
-    justify-content: space-between;
 }
 
 .container nav {
 
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
+    margin: auto;
+    padding: 30px 0;
+
 }
 
 .container nav ul {
@@ -52,9 +54,39 @@ body::after {
     width: 80%;
     display: flex;
     justify-content: space-evenly;
+    list-style: none;
 }
 
-.logo {
-    padding: 10px;
-    margin: 50px 10px;
+/* Menue Items */
+.container nav ul li a {
+
+    text-decoration: none;
+}
+
+.container .logo {
+    
+     font-size: 45px;   
+     text-decoration: none; 
+     text-transform: uppercase;
+     font-family: cursive;
+     transition: all 1s ease-in-out;
+     text-shadow: 5px 5px 5px black;
+
+}
+.logo:hover {
+
+    transform: matrix(1.1, -1, 0.5, 1.2, -10, -10);
+}
+
+#MenueItems {
+    transition: all 1s ease;
+    text-shadow: 5px 5px 5px black;
+}
+
+#MenueItems:hover {
+
+        transform: scale(1.2);
+        text-shadow: 5px 5px 5px #ffffffa1;
+        background-color: #ffffff1a;
+        border-radius: 5px;
 }
