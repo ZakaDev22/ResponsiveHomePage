@@ -6,3 +6,44 @@
 
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+    background-image: linear-gradient(to top , black,#3a1905d2,black);
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+
+    background: #ffffff;
+    opacity: 0.1;
+    height: 80%;
+    width: 80%;
+    
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container nav {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container nav ul {
+
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    padding: 10px;
+    margin: 50px 10px;
+}
